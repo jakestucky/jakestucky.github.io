@@ -25,6 +25,19 @@ summary {
   display: block;
 }
 
+.icon-facebook {
+  padding: 5px;
+}
+.icon-linkedin {
+  padding: 5px;
+}
+.icon-github {
+  padding: 5px;
+}
+.material-icons {
+  padding: 5px;
+}
+
 audio,
 canvas,
 video {
