@@ -1,6 +1,6 @@
 body {
   background-color: #f2f2f2;
-  font-family: "Lato"; /* OPTIONAL: Google Fonts - base font */
+  font-family: 'Lato'; /* OPTIONAL: Google Fonts - base font */
   font-weight: 300;
   font-size: 18px;
   color: #555;
@@ -9,12 +9,44 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
+.nav-header {
+  position: fixed;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  z-index: 10;
+  background: #2c3e50;
+  -webkit-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+}
+.nav-item {
+  text-align: center;
+  padding: 15px 20px;
+}
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway"; /* OPTIONAL: Google Fonts - title font */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway'; /* OPTIONAL: Google Fonts - title font */
   font-weight: 300;
   color: #333;
   font-size: 20px;
+}
+.avatar {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  margin-top: -25px;
+  border-radius: 50%;
+  float: left;
 }
 
 /* Paragraph & Typographic */
@@ -24,12 +56,12 @@ p {
 }
 
 .centered {
-    text-align: center;
+  text-align: center;
 }
 
 /* Links */
 a {
-  color: #1CBCAD;
+  color: #1cbcad;
   word-wrap: break-word;
 
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -55,7 +87,7 @@ a:after {
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
- hr {
+hr {
   display: block;
   height: 1px;
   border: 0;
@@ -72,13 +104,13 @@ a:after {
 .header {
   background: #6853ed;
   background: url(../images/header-bg.jpg) no-repeat center top;
-  padding-top:140px;
-  text-align:center;
+  padding-top: 140px;
+  text-align: center;
   background-attachment: relative;
   background-position: center center;
   min-height: 500px;
   width: 100%;
-  
+
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -93,7 +125,7 @@ a:after {
 .header h1 {
   font-size: 80px;
   color: white;
-  background: rgba(0,0,0,0.2);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .header h3 {
@@ -111,9 +143,10 @@ a:after {
   padding-top: 60px;
   padding-bottom: 60px;
   color: white;
-} 
+}
 
-.about h5, p {
+.about h5,
+p {
   color: white;
 }
 
@@ -173,7 +206,6 @@ a:after {
   color: #616669;
 }
 
-
 sm {
   font-size: 12px;
 }
@@ -205,11 +237,11 @@ body {
 
 @-webkit-keyframes fadeIn {
   0% {
-    opacity: 0; 
+    opacity: 0;
   }
 
   100% {
-    opacity: 1; 
+    opacity: 1;
   }
 }
 
@@ -240,7 +272,7 @@ body {
 
   100% {
     opacity: 1;
-  } 
+  }
 }
 
 .fadeIn {
@@ -304,4 +336,4 @@ body {
   -moz-animation-name: fadeInUp;
   -o-animation-name: fadeInUp;
   animation-name: fadeInUp;
-  }
+}
